@@ -3,4 +3,4 @@
 \.git
 \.gitignore
 
-font
+.DS_Store
