@@ -1,0 +1,162 @@
+{
+    "workbench.startupEditor": "none",
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "Berkeley Mono",
+    "editor.tabSize": 4,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.postCommitCommand": "sync",
+    "editor.lineNumbers": "relative",
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
+    "editor.autoClosingComments": "never",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "n"
+            ],
+            "after": [
+                "n",
+                "z",
+                "z"
+            ],
+        },
+        {
+            "before": [
+                "N"
+            ],
+            "after": [
+                "N",
+                "z",
+                "z"
+            ],
+        },
+        {
+            "before": [
+                "<C-u>"
+            ],
+            "after": [
+                "<C-u>",
+                "z",
+                "z"
+            ],
+        },
+        {
+            "before": [
+                "<C-d>"
+            ],
+            "after": [
+                "<C-d>",
+                "z",
+                "z"
+            ],
+        },
+        {
+            "before": [
+                "<C-i>"
+            ],
+            "after": [
+                "<C-i>",
+                "z",
+                "z"
+            ],
+        },
+        {
+            "before": [
+                "<C-o>"
+            ],
+            "after": [
+                "<C-o>",
+                "z",
+                "z"
+            ],
+        },
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "J"
+            ],
+            "commands": [
+                {
+                    "command": "editor.action.moveLinesDownAction",
+                    "args": {}
+                },
+                {
+                    "command": "editor.action.reindentselectedlines",
+                    "args": {}
+                },
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                {
+                    "command": "editor.action.moveLinesUpAction",
+                    "args": {}
+                },
+                {
+                    "command": "editor.action.reindentselectedlines",
+                    "args": {}
+                },
+            ]
+        },
+    ],
+    "zig.zls.enabled": "on",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "extensions.ignoreRecommendations": true,
+    "python.createEnvironment.trigger": "off",
+    "git.pruneOnFetch": true,
+    "git.fetchOnPull": true,
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "terminal.integrated.fontSize": 14,
+    "vim.autoindent": false,
+    "cursor.cpp.enablePartialAccepts": true,
+    "codeSight.telemetry.enablement": false,
+    "codeSight.warnings.showAll": false,
+    "cursor.composer.shouldChimeAfterChatFinishes": true,
+    "cursor.composer.shouldAllowCustomModes": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.jj": true,
+        "**/.svn": true,
+        "**/.DS_Store": true,
+    },
+    "editor.guides.indentation": false,
+    "[c]": {
+        "editor.wordBasedSuggestions": "off",
+        "editor.semanticHighlighting.enabled": true,
+        "editor.stickyScroll.defaultModel": "foldingProviderModel",
+        "editor.suggest.insertMode": "replace"
+    },
+    "git.ignoreRebaseWarning": true,
+    "visualjj.showSourceControlColocated": true,
+    "cmake.showConfigureWithDebuggerNotification": false,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.pytestParameters": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "git.openRepositoryInParentFolders": "never",
+    "cursor.cpp.disabledLanguages": [
+        "markdown",
+        "plaintext",
+        "rust"
+    ],
+    "vim.leader": " ",
+    "vim.matchpairs": "(:),{:},[:],<:>",
+    "vim.showMarksInGutter": true,
+    "vim.surround": false,
+    "C_Cpp.inlayHints.parameterNames.enabled": true,
+    "C_Cpp.inlayHints.parameterNames.suppressWhenArgumentContainsName": false,
+    "cursorpyright.shouldImportPylanceSettings": "never",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.iconTheme": "catppuccin-mocha",
+    "catppuccin-icons.hidesExplorerArrows": true,
+    "catppuccin.accentColor": "sky",
+    "catppuccin.boldKeywords": false,
+    "catppuccin.italicKeywords": false,
+    "editor.formatOnSave": true,
+}

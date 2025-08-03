@@ -1,0 +1,22 @@
+#font
+font-family = "Berkeley Mono"
+window-title-font-family = "Berkeley Mono"
+font-size = 14
+
+#theming
+#theme = OneHalfDark
+macos-icon = glass
+background-opacity = 0.9
+background-blur = 100
+
+#settings
+macos-option-as-alt = true
+macos-titlebar-proxy-icon = hidden
+macos-auto-secure-input = true
+macos-secure-input-indication = true
+clipboard-paste-protection = false
+
+#updates
+auto-update = download
+auto-update-channel = tip
+
