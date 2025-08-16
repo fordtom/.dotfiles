@@ -4,10 +4,10 @@ window-title-font-family = "Berkeley Mono"
 font-size = 14
 
 #theming
-theme = OneHalfDark
+theme = Kolorit
 macos-icon = glass
-background-opacity = 0.9
-background-blur = 100
+#background-opacity = 0.9
+#background-blur = 100
 
 #settings
 macos-option-as-alt = true

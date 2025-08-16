@@ -116,5 +116,9 @@
 {
    "key": "ctrl+\\",
    "command": "workbench.action.createTerminalEditor"
+},
+{
+   "key": "cmd+e",
+   "command": "composerMode.background"
 }
 ]

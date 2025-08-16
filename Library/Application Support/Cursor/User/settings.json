@@ -116,8 +116,6 @@
     "terminal.integrated.fontSize": 14,
     "vim.autoindent": false,
     "cursor.cpp.enablePartialAccepts": true,
-    "codeSight.telemetry.enablement": false,
-    "codeSight.warnings.showAll": false,
     "cursor.composer.shouldChimeAfterChatFinishes": true,
     "cursor.composer.shouldAllowCustomModes": true,
     "files.exclude": {
@@ -134,16 +132,11 @@
         "editor.suggest.insertMode": "replace"
     },
     "git.ignoreRebaseWarning": true,
-    "visualjj.showSourceControlColocated": true,
     "cmake.showConfigureWithDebuggerNotification": false,
-    "python.analysis.inlayHints.functionReturnTypes": true,
-    "python.analysis.inlayHints.pytestParameters": true,
-    "python.analysis.inlayHints.variableTypes": true,
     "git.openRepositoryInParentFolders": "never",
     "cursor.cpp.disabledLanguages": [
         "markdown",
-        "plaintext",
-        "rust"
+        "plaintext"
     ],
     "vim.leader": " ",
     "vim.matchpairs": "(:),{:},[:],<:>",
@@ -152,11 +145,10 @@
     "C_Cpp.inlayHints.parameterNames.enabled": true,
     "C_Cpp.inlayHints.parameterNames.suppressWhenArgumentContainsName": false,
     "cursorpyright.shouldImportPylanceSettings": "never",
-    "workbench.colorTheme": "Catppuccin Mocha",
-    "workbench.iconTheme": "catppuccin-mocha",
-    "catppuccin-icons.hidesExplorerArrows": true,
-    "catppuccin.accentColor": "sky",
-    "catppuccin.boldKeywords": false,
-    "catppuccin.italicKeywords": false,
     "editor.formatOnSave": true,
+    "errorLens.enabledDiagnosticLevels": [
+        "warning",
+        "info"
+    ],
+    "workbench.colorTheme": "Cursor Dark Midnight",
 }

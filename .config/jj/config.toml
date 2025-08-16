@@ -3,39 +3,18 @@ email = "tfordy63@gmail.com"
 name = "fordtom"
 
 [ui]
-default-command = ["log", "-T", "simple_log"]
+default-command = "log"
 editor = "nvim"
-diff-editor = ["nvim", "-c", "DiffEditor $left $right $output"] 
 
 [templates]
 git_push_bookmark = '"fordtom/" ++ change_id.short()'
 
 [aliases]
-fetch = ["git", "fetch"]
-push = ["git", "push"]
-publish = ["git", "push", "-c", "@"]
-msg = ["describe", "-m"]
+pub = ["git", "push", "-c", "@"]
 bump = ["bookmark", "move", "--from", "closest_bookmark(@)", "--to", "@"]
 drop = ["abandon", "--restore-descendants"]
-retrunk = ["rebase", "-d", "trunk()"]
+rt = ["rebase", "-d", "trunk()"]
 
 [revset-aliases]
 "closest_bookmark(to)" = "heads(::to & bookmarks())"
-
-[template-aliases]
-'simple_log' = '''
-concat(
-   change_id.shortest(8), " ",
-   author.name(), " ",
-   author.timestamp().format("%Y-%m-%d %H:%M"), " ",
-   bookmarks, " ",
-   tags, " ",
-   if(git_head, label("git_head", "HEAD")),
-   "\n", 
-   separate(" ",
-      if(empty, label("empty", "(empty)")),
-      if(description, description.first_line(), description_placeholder)
-   ),
-)
-'''
 

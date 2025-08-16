@@ -7,4 +7,5 @@ require("lazy").setup({
    { import = "config.plugins.lsp" },
    { import = "config.plugins.cmp" },
    { import = "config.plugins.toggleterm" },
+   { import = "config.plugins.sleuth" },
 })
